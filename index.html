@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="//unpkg.com/brain.js" defer></script>
+  <script src="//unpkg.com/papaparse@5" defer></script>
+  <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+  <script type="module" src="./scripts/main.js"></script>
+</head>
+
+<body>
+  <h1>Travel Destination Predictor</h1>
+  <input type="file" id="csvFile" accept=".csv">
+  <button id="loadButton">Load Data and Train Model</button>
+  <h2>Predict for:</h2>
+  <h2>Or Lookup Traveler:</h2>
+  <label for="nameInput">Name:</label>
+  <input type="text" id="nameInput" name="nameInput" required>
+  <button id="lookupButton">Lookup Traveler</button>
+  <p id="predictionResult"></p>
+  <p id="popularUnder30"></p>
+  <p id="popularByNationality"></p>
+  <p id="travelerDetails"></p>
+</body>
+
+</html>

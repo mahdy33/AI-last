@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+  color: #1a202c;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #2d3748;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Form Element Styles */
+input[type="text"],
+input[type="number"],
+button {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #cbd5e0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 2px solid #cbd5e0;
+  cursor: pointer;
+  width: auto;
+}
+
+button {
+  background-color: #4c53af;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2b417c;
+}
+
+p {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-left: 5px solid #4c60af;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+/* Labels for improved form structure */
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
